@@ -12,3 +12,12 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
     - state: rubber
+
+- type: entity
+  id: MagazineLightRifleBoxRubber
+  name: "L6 SAW magazine box (.30 rifle rubber)"
+  parent: MagazineLightRifleBox
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifleRubber
+    capacity: 100

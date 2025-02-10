@@ -52,6 +52,9 @@ uplink-hardsuit-commander-syndie-desc = The premiere blood-red hardsuit, with im
 uplink-hardsuit-agent-syndie-name = Agent's Hardsuit
 uplink-hardsuit-agent-syndie-desc = The iconic blood-white hardsuit, painted with patterns specifically designed to make you a less appealing target. Limit of 1.
 
+uplink-ammo-bundle-rubber-name = Less-than-Lethal Ammo Bundle
+uplink-ammo-bundle-rubber-desc = Contains 4 rubber magazines for the C-20r, 4 beanbag drums for the Bulldog, and 2 rubber ammo boxes for the L6 SAW.
+
 # Objectives
 uplink-core-extraction-toolbox-name = Core Extraction Toolbox
 uplink-core-extraction-toolbox-desc = A toolbox containing everything you need to remove a nuclear bomb's plutonium core. Instructions not included.

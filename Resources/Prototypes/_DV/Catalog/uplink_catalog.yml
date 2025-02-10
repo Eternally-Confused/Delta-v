@@ -205,6 +205,26 @@
   categories:
   - UplinkDisruption
 
+- type: listing
+  parent: UplinkAmmoBundle
+  id: UplinkAmmoBundleRubber
+  name: uplink-ammo-bundle-rubber-name
+  description: uplink-ammo-bundle-rubber-desc
+  productEntity: ClothingBackpackDuffelSyndicateAmmoFilledRubber
+  cost:
+    Telecrystal: 8 # Needs to be cheaper than buying real, more effective bullets
+  categories:
+  - UplinkAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - NukeOpsUplink
+    - !type:BuyerWhitelistCondition
+      blacklist:
+        components:
+          - SurplusBundle
+
 # Objective-specific
 - type: listing
   id: UplinkCoreExtractionToolbox
