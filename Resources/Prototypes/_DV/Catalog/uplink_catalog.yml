@@ -206,7 +206,6 @@
   - UplinkDisruption
 
 - type: listing
-  parent: UplinkAmmoBundle
   id: UplinkAmmoBundleRubber
   name: uplink-ammo-bundle-rubber-name
   description: uplink-ammo-bundle-rubber-desc
@@ -214,8 +213,9 @@
   cost:
     Telecrystal: 8 # Needs to be cheaper than buying real, more effective bullets
   categories:
-  - UplinkAmmo
+  - UplinkObjectives
   conditions:
+    - !type:ObjectiveUnlockCondition
     - !type:StoreWhitelistCondition
       whitelist:
         tags:

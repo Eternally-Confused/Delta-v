@@ -54,6 +54,7 @@
     - UplinkBodyBagBox
     - UplinkStunBundleNukie
     - UplinkHostageImplanterNukieFree
+    - UplinkAmmoBundleRubber
 
 - type: entity
   parent: BaseStealObjective
