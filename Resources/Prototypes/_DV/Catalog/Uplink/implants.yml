@@ -34,6 +34,24 @@
   - UplinkImplants
 
 - type: listing
+  id: UplinkSyndicateRadioImplanterFree
+  name: uplink-syndicate-radio-implanter-name
+  description: uplink-syndicate-radio-implanter-desc-free
+  icon: { sprite: /Textures/Objects/Devices/encryption_keys.rsi, state: synd_label }
+  productEntity: SyndicateRadioImplanter
+  cost:
+    Telecrystal: 0
+  categories:
+  - UplinkImplants
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - NukeOpsUplink
+
+- type: listing
   id: UplinkSyndicateRadioImplanterBundle
   name: uplink-syndicate-radio-implanter-bundle-name
   description: uplink-syndicate-radio-implanter-bundle-desc
