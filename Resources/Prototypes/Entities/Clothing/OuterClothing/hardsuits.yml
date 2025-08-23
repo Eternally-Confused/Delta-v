@@ -567,6 +567,7 @@
         Radiation: 0.5
         Caustic: 0.5
         Cold: 0.8 # DeltaV - Cold res
+  - type: Insulated # DeltaV - inherent insuls
   - type: DamageOnShootProtection # imp
     slots: OUTERCLOTHING
     damageProtection:
@@ -647,6 +648,7 @@
         Radiation: 0.01
         Caustic: 0.5
         Cold: 0.4 # DeltaV - Cold res
+  - type: Insulated # DeltaV - inherent insuls
   - type: DamageOnShootProtection # imp
     slots: OUTERCLOTHING
     damageProtection:
@@ -689,6 +691,7 @@
         Radiation: 0.25
         Caustic: 0.4
         Cold: 0.8 # DeltaV - Cold res
+  - type: Insulated # DeltaV - inherent insuls
   - type: DamageOnShootProtection # imp
     slots: OUTERCLOTHING
     damageProtection:
@@ -732,6 +735,7 @@
         Radiation: 0.2
         Caustic: 0.2
         Cold: 0.6 # DeltaV - Cold res
+  - type: Insulated # DeltaV - inherent insuls
   - type: DamageOnShootProtection # imp
     slots: OUTERCLOTHING
     damageProtection:
