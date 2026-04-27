@@ -22,6 +22,8 @@
     sprite: _DV/Clothing/Neck/Cloaks/boatcloak.rsi
   - type: Clothing
     sprite: _DV/Clothing/Neck/Cloaks/boatcloak.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
 
 - type: entity
   parent: ClothingNeckBase
